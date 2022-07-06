@@ -1,0 +1,470 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* heor starts */
+.hero-main {
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+
+
+}
+
+.hero-text {
+    height: 100%;
+
+    padding-top: 100px;
+    text-align: center;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 150%);
+}
+
+.help {
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+
+.herop {
+    text-align: center;
+    color: #a1b2c0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 17px;
+
+
+}
+
+.donate-button {
+    text-decoration: none;
+    color: #fff;
+    background: #FA6F83;
+    padding: 10px 20px;
+    border-radius: 6px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+
+}
+
+/* hero ends */
+/* donate starts */
+
+.donate-mainbox {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background: #fafafa;
+}
+
+.donate {
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.donate-text {
+    text-align: center;
+}
+
+.money-box {
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.donatep {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 17px;
+    color: #88898d;
+
+
+}
+
+ul {
+    list-style: none;
+    padding: 40px 0;
+}
+
+li {
+    display: inline;
+    padding: 25px 20px;
+    margin-right: 5px;
+    background: #FAFAFA;
+    border: 1px solid #ECF8F8;
+    border-radius: 5px;
+}
+
+
+li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+#taka {
+    background: #FFEEEE;
+    border: 2px solid tomato;
+
+}
+
+#taka a {
+    color: #FA6F83;
+}
+
+.money-box ul li a {
+    text-decoration: none;
+    font-size: 26px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+
+}
+
+#money {
+    overflow: hidden;
+    color: grey;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-bottom: 1px solid gray;
+}
+
+/* donate ends */
+/* our-plan starts */
+.our-plan-main {
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0;
+    background: #fafafa;
+}
+
+.plan-sub {
+    width: 85%;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.planh1 {
+    text-align: center;
+}
+
+.planp {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #88898d;
+    line-height: 26px;
+    text-align: center;
+}
+
+.food-box {
+    background: #0C426E;
+    border-radius: 5px;
+    width: 30%;
+    margin-right: 2%;
+    padding: 35px 20px;
+
+
+
+}
+
+.foodh3 {
+    color: #F0F0F0;
+    font-size: 16px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+
+}
+
+.foodp {
+    font-size: 11px;
+
+    margin-top: 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 15px;
+
+}
+
+.shelter-box {
+    background: rgba(79, 157, 166, 0.1);
+    width: 30%;
+    margin-right: 2%;
+    border-radius: 5px;
+
+    padding: 35px 20px;
+
+}
+
+.shelterp {
+    font-size: 11px;
+
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 15px;
+
+}
+
+.shelterh3 {
+    font-size: 16px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+    color: #0C426E;
+}
+
+.educate-box {
+    background: pink;
+
+    width: 30%;
+    border-radius: 5px;
+    padding: 35px 20px;
+
+
+
+}
+
+.educatep {
+    font-size: 11px;
+
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 15px;
+
+}
+
+.educateh3 {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+    color: #212529;
+}
+
+.food-box i {
+    font-size: 30px;
+    color: #ECF8F8;
+}
+
+.shelter-box i {
+    font-size: 30px;
+    color: #0C426E;
+
+
+}
+
+.educate-box i {
+    font-size: 30px;
+    color: #212529;
+
+}
+
+/* donate-plan ends */
+
+/*why starts */
+
+.why-box {
+    width: 100%;
+    background: #f5f5f5;
+    padding: 50px 0;
+}
+
+.choose {
+    text-align: center;
+    color: #0B0D17;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 10px 0;
+
+}
+
+.chooseus {
+    color: #e16073;
+}
+
+.why-sub {
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+
+.whyimg {
+    width: 49%;
+    margin-right: 2%;
+
+
+}
+
+.whyimg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.why-text {
+    background: #fafafa;
+    border: 1px solid snow;
+    padding: 20px 30px;
+    width: 49%;
+    border-radius: 4px;
+}
+
+.trusted {
+    color: #0c426e;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin: 0;
+
+
+}
+
+.one {
+    color: #0C426E;
+    font-size: 14px;
+    border: 2px solid #0C426E;
+    padding: 10px;
+    border-radius: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+
+.service {
+    color: #121212;
+    font-size: 13px;
+    padding: 5px;
+
+}
+
+.two {
+    color: #0C426E;
+    font-size: 14px;
+    border: 2px solid #0C426E;
+    padding: 10px;
+    border-radius: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.talented {
+    color: #0c426e;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin: 0;
+
+}
+
+/*why ends*/
+
+/*  update starts */
+.update-main {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 100px 0;
+    background: #f5f5f5;
+}
+
+.update-form {
+    width: 50%;
+    margin: auto;
+    padding: 50px 0;
+    background: #FFF4D6;
+}
+
+.update-form input {
+    margin-right: -4px;
+    padding: 9px 20px;
+    background: #D9D9D9;
+    border: none;
+    border-radius: 2px;
+}
+
+.update-main h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+
+.update-main p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 0;
+
+
+}
+
+.login {
+    text-decoration: none;
+    background: #e16073;
+    color: whitesmoke;
+    padding: 8px 20px;
+    border-radius: 2px;
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
+/*  update ends*/
+
+/* footer starts*/
+.footer-main {
+    width: 100%;
+    height: 10vh;
+    background: #0B0D17;
+    padding: 40px 0;
+
+}
+
+.footer-main h1 {
+    color: #FA6F83;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+}
+
+.footer-main p {
+    color: #88898d;
+    text-align: center;
+    font-size: 16px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+/* ends */
